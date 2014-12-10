@@ -15,7 +15,7 @@ backfground image.
 */
 
 body {
-	font-family: gill sans, Helvetica, sans-serif;
+	font-family: 'Abel', sans-serif;
 	font-weight: lighter;
 	background-color: rgb(235,235,235);
 	color:#000000;
@@ -25,7 +25,8 @@ body {
   position: absolute;
   width: 100%;
   top:210px;
-  margin: auto 100px;
+  margin-left: 10%;
+  margin-right:10%;
 
   background-color: rgb(235,235,235)}
 header{
@@ -52,11 +53,8 @@ footer {
 
 }
 }
-h1{font-family: sacramento, cursive;
-  font-size: 300%;
-  width: 300px;
-  }
-h2{font-family: sacramento, cursive;
+
+h2{font-family: 'sacramento', cursive;
   font-size: 175%}
 h3{font-size: 85%}
 
@@ -72,9 +70,9 @@ a {
 }
 #wrapper .graphic_box{
   position:absolute;
-  margin-top: 35px;
+  margin-top: 50px;
   margin-bottom: 50px;
- border: 1px solid red; 
+ /*border: 1px solid red;*/ 
  display: inline-block;
  padding:10px;
  
@@ -85,11 +83,25 @@ a {
     display: inline-block ;*/
   }
   .pole_button{
-    display: block;
+    
     padding: 10px;
   }
   .pole_button:hover{
     opacity: 0.3;
+  }
+  .aerial_button{
+   
+    padding:10px;
+  }
+  .aerial_button:hover{
+    opacity: 0.3;
+  }
+  .alt_fit{
+   
+    padding: 10px;
+  }
+  .alt_fit:hover{
+    opacity: 0.3
   }
 
 
@@ -151,8 +163,9 @@ article.philosophy{
 }
 .btn{
   position: absolute;
-  left:820px;
-  top:95px;
+  left:750px;
+  top:100px;
+  z-index: 50;
 }
 .socialmedia{
   position: absolute;
@@ -166,10 +179,14 @@ article.philosophy{
 section.summary{
   position: absolute;
   width: 300px;
-  font-size: 150%;
+  font-size: 120%;
   margin-left: 720px;
   margin-top: 100px;
+  padding-left: 20px;
   
+}
+.philosophy{
+  width:420px;
 }
 .bioblurb{
   width: 400px;
@@ -523,6 +540,11 @@ section.summary{
   left:550px;
   top:15px;
   z-index: 10;}
+
+  h1{font-family: sacramento, cursive;
+  font-size: 300%;
+  width: 300px;
+  }
 
 /*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 #cssmenu,
