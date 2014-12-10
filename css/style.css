@@ -21,7 +21,7 @@ body {
 	color:#000000;
   min-height: 100%;
 }
-<<<<<<< HEAD
+
 #wrapper{
   position: relative;
   min-height: 100%;
@@ -84,17 +84,8 @@ article.pricelist{
   margin-top: -50px;
   margin-bottom: 100px;
 }
-<<<<<<< HEAD
+
 header{
-
-=======
-
-header {
->>>>>>> FETCH_HEAD
-=======
-
-header {
->>>>>>> FETCH_HEAD
 	background-color: black; 
 	color:white;
 	max-height: 200px;
@@ -106,8 +97,6 @@ footer {
 	color: white;
   clear:both;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 h1{font-family: sacramento, cursive;
 	font-size: 300%;
 	}
@@ -115,10 +104,6 @@ h2{font-family: sacramento, cursive;
 	font-size: 175%}
 h3{font-size: 85%}
 
-a{
-=======
-=======
->>>>>>> FETCH_HEAD
 
 h1 {
 	font-family: sacramento, cursive;
@@ -145,17 +130,11 @@ li {
 }
 
 a {
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
-=======
->>>>>>> FETCH_HEAD
 	color:white;
 	text-decoration: none;
 	padding:5px;
 	margin:5px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 article.tobin .christine .sierra{width:400px;}
 }
 article.philosophy{
@@ -615,18 +594,13 @@ footer{
   position: absolute;
   left:550px;
   top:15px;
-  z-index: 10;
-=======
-=======
->>>>>>> FETCH_HEAD
+  z-index: 10;}
 
 nav.hover {
 	background-color: #555555;
 }
 
 .description {
-	
->>>>>>> FETCH_HEAD
 }
 
 /*saul added the two rules below*/
@@ -637,8 +611,6 @@ nav.hover {
 	background-image: url(../assets/pole_button.png) ;
 }
 
-<<<<<<< HEAD
-=======
 /*saul added the two rules below*/
 #pole_img {
 	display: inline-block;
@@ -646,8 +618,6 @@ nav.hover {
 	height: 300;
 	background-image: url(../assets/pole_button.png) ;
 }
-
->>>>>>> FETCH_HEAD
 #pole_img:hover {
 	width: 325;
 	height: 300;
