@@ -21,7 +21,54 @@ body {
 	color:#000000;
   min-height: 100%;
 }
+#wrapper{
+  position: absolute;
+  width: 100%;
+  top:210px;
+  margin: auto 100px;
 
+  background-color: rgb(235,235,235)}
+header{
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  background-color: #000; 
+  color:white;
+  height: 200px;
+  top: 0px;
+  position: fixed;
+  z-index: 50;
+
+}
+
+footer {
+  color:white;
+  position:relative;
+  width:100%;
+  height:80px;
+  bottom:0;
+  left:0;
+  background:black;
+  top:1200;
+
+}
+}
+h1{font-family: sacramento, cursive;
+  font-size: 300%;
+  width: 300px;
+  }
+h2{font-family: sacramento, cursive;
+  font-size: 175%}
+h3{font-size: 85%}
+
+li {
+  list-style: none;
+}
+
+a {
+  color:#9E1F60;
+  text-decoration: none;
+  padding:5px;
+  margin:5px;
 }
 #wrapper .graphic_box{
   position:absolute;
@@ -30,7 +77,7 @@ body {
  border: 1px solid red; 
  display: inline-block;
  padding:10px;
- width: 910px
+ 
 }
 /*#wrapper .graphic_box {
    width: 350px ;
@@ -45,40 +92,7 @@ body {
     opacity: 0.3;
   }
 
-/*#wrapper .pole_icon .fitness_icon{
-  
-  display: inline-block;
-  width: 325;
-  height: 300;
-  background-image: url(../assets/pole_button.png);
-}#wrapper .pole_icon .fitness_icon:hover{
-   display: inline-block;
-  width: 325;
-  height: 300;
-  background-image: url(../assets/pole_hover.png);
-}
-#wrapper .aerial_icon .fitness_icon{
-  display: inline-block;
-  width: 325;
-  height: 300;
-  background-image: url(.../assets/aerial_graphic.png);
-}
-#wrapper .aerial_icon .fitness_icon:hover{
-  display: inline-block;
-  width: 325;
-  height: 300;
-  background-image: url(.../assets/aeria_hover.png);
-}
-#wrapper .alt_icon .fitness_icon{
-  display: inline-block;
-  width: 325;
-  height: 300;
-  background-image: url(.../assets/yoga_graphic.png);
 
-/*#wrapper .aerial_icon .fitness_icon
-#policiebody{
-  padding-left:200px;
-}*/
 article.pricelist{
   display: block;
   padding-left: 200px;
@@ -90,54 +104,7 @@ article.pricelist{
   margin-bottom: 100px;
 }
 
-#wrapper{
-  position: absolute;
-  width: 100%;
-  top:210px;
-  margin: auto 100px;
 
-  background-color: rgb(235,235,235)}
-header{
- 
-	background-color: black; 
-	color:white;
-  height: 200px;
-
-}
-
-footer {
-	color:white;
-  position:relative;
-  width:100%;
-  height:80px;
-  bottom:0;
-  left:0;
-  background:black;
-  margin-top: 800px;
-
-}
-}
-h1{font-family: sacramento, cursive;
-	font-size: 300%;
-	}
-h2{font-family: sacramento, cursive;
-	font-size: 175%}
-h3{font-size: 85%}
-nav li {
-	display:inline;
-	max-height: 300px;
-	float:right;
-}
-
-li {
-	list-style: none;
-}
-
-a {
-	color:white;
-	text-decoration: none;
-	padding:5px;
-	margin:5px;
 }
 article.tobin .christine .sierra{width:400px;}
 }
@@ -207,8 +174,357 @@ section.summary{
 .bioblurb{
   width: 400px;
 }
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu #menu-button {
+  display: none;
+}
+#cssmenu {
+  font-family: Montserrat, sans-serif;
+  background: #000000;
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu > ul > li > a {
+  padding: 17px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#cssmenu > ul > li:hover > a {
+  color: #fdb1f8;
+}
+#cssmenu > ul > li.has-sub > a {
+  padding-right: 30px;
+}
+#cssmenu > ul > li.has-sub > a:after {
+  position: absolute;
+  top: 22px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #ffffff;
+  content: '';
+}
+#cssmenu > ul > li.has-sub > a:before {
+  position: absolute;
+  top: 19px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #ffffff;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#cssmenu > ul > li.has-sub:hover > a:before {
+  top: 23px;
+  height: 0;
+}
+#cssmenu ul ul {
+  position: absolute;
+  left: -9999px;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu ul ul li {
+  height: 0;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#cssmenu li:hover > ul {
+  left: auto;
+}
+#cssmenu.align-right li:hover > ul {
+  left: auto;
+  right: 0;
+}
+#cssmenu li:hover > ul > li {
+  height: 35px;
+}
+#cssmenu ul ul ul {
+  margin-left: 100%;
+  top: 0;
+}
+#cssmenu.align-right ul ul ul {
+  margin-left: 0;
+  margin-right: 100%;
+}
+#cssmenu ul ul li a {
+  border-bottom: 1px solid rgba(150, 150, 150, 0.15);
+  padding: 11px 15px;
+  width: 170px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  background: #000000;
+}
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul li.last-item > a {
+  border-bottom: 0;
+}
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li a:hover {
+  color: #fdb1f8;
+}
+#cssmenu ul ul li.has-sub > a:after {
+  position: absolute;
+  top: 16px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #ffffff;
+  content: '';
+}
+#cssmenu.align-right ul ul li.has-sub > a:after {
+  right: auto;
+  left: 11px;
+}
+#cssmenu ul ul li.has-sub > a:before {
+  position: absolute;
+  top: 13px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #ffffff;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#cssmenu.align-right ul ul li.has-sub > a:before {
+  right: auto;
+  left: 14px;
+}
+#cssmenu ul ul > li.has-sub:hover > a:before {
+  top: 17px;
+  height: 0;
+}
+#cssmenu.small-screen {
+  width: 100%;
+}
+#cssmenu.small-screen ul {
+  width: 100%;
+  display: none;
+}
+#cssmenu.small-screen.align-center > ul {
+  text-align: left;
+}
+#cssmenu.small-screen ul li {
+  width: 100%;
+  border-top: 1px solid rgba(120, 120, 120, 0.2);
+}
+#cssmenu.small-screen ul ul li,
+#cssmenu.small-screen li:hover > ul > li {
+  height: auto;
+}
+#cssmenu.small-screen ul li a,
+#cssmenu.small-screen ul ul li a {
+  width: 100%;
+  border-bottom: 0;
+}
+#cssmenu.small-screen > ul > li {
+  float: none;
+}
+#cssmenu.small-screen ul ul li a {
+  padding-left: 25px;
+}
+#cssmenu.small-screen ul ul ul li a {
+  padding-left: 35px;
+}
+#cssmenu.small-screen ul ul li a {
+  color: #ffffff;
+  background: none;
+}
+#cssmenu.small-screen ul ul li:hover > a,
+#cssmenu.small-screen ul ul li.active > a {
+  color: #fdb1f8;
+}
+#cssmenu.small-screen ul ul,
+#cssmenu.small-screen ul ul ul,
+#cssmenu.small-screen.align-right ul ul {
+  position: relative;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+#cssmenu.small-screen > ul > li.has-sub > a:after,
+#cssmenu.small-screen > ul > li.has-sub > a:before,
+#cssmenu.small-screen ul ul > li.has-sub > a:after,
+#cssmenu.small-screen ul ul > li.has-sub > a:before {
+  display: none;
+}
+#cssmenu.small-screen #menu-button {
+  display: block;
+  padding: 17px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#cssmenu.small-screen #menu-button:after {
+  position: absolute;
+  top: 22px;
+  right: 17px;
+  display: block;
+  height: 4px;
+  width: 20px;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  content: '';
+}
+#cssmenu.small-screen #menu-button:before {
+  position: absolute;
+  top: 16px;
+  right: 17px;
+  display: block;
+  height: 2px;
+  width: 20px;
+  background: #ffffff;
+  content: '';
+}
+#cssmenu.small-screen #menu-button.menu-opened:after {
+  top: 23px;
+  border: 0;
+  height: 2px;
+  width: 15px;
+  background: #fdb1f8;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#cssmenu.small-screen #menu-button.menu-opened:before {
+  top: 23px;
+  background: #fdb1f8;
+  width: 15px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+#cssmenu.small-screen .submenu-button {
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  top: 0;
+  display: block;
+  border-left: 1px solid rgba(120, 120, 120, 0.2);
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+}
+#cssmenu.small-screen .submenu-button.submenu-opened {
+  background: #000000;
+}
+#cssmenu.small-screen ul ul .submenu-button {
+  height: 34px;
+  width: 34px;
+}
+#cssmenu.small-screen .submenu-button:after {
+  position: absolute;
+  top: 22px;
+  right: 19px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #ffffff;
+  content: '';
+}
+#cssmenu.small-screen ul ul .submenu-button:after {
+  top: 15px;
+  right: 13px;
+}
+#cssmenu.small-screen .submenu-button.submenu-opened:after {
+  background: #fdb1f8;
+}
+#cssmenu.small-screen .submenu-button:before {
+  position: absolute;
+  top: 19px;
+  right: 22px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #ffffff;
+  content: '';
+}
+#cssmenu.small-screen ul ul .submenu-button:before {
+  top: 12px;
+  right: 16px;
+}
+#cssmenu.small-screen .submenu-button.submenu-opened:before {
+  display: none;
+}
+#cssmenu.small-screen.select-list {
+  padding: 5px;
+}
+#cssmenu{
+  position: absolute;
+  left:550px;
+  top:15px;
+  z-index: 10;}
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 #cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
@@ -586,18 +902,8 @@ section.summary{
 #cssmenu.small-screen.select-list {
   padding: 5px;
 }
-#cssmenu{
-  position: absolute;
-  left:550px;
-  top:15px;
-  z-index: 10;}
+*/
 
-nav.hover {
-	background-color: #555555;
-}
-
-.description {
-}
 
 /*saul added the two rules below
 #pole_img {
