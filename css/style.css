@@ -22,25 +22,30 @@ body {
   min-height: 100%;
 }
 
-#wrapper{
-  position: relative;
-  min-height: 100%;
- 
-  margin: auto 100px;
-
-  background-color: rgb(235,235,235)
 }
 #wrapper .graphic_box{
   position:absolute;
   margin-top: 35px;
-  /* border: 1px solid red; */
+  margin-bottom: 50px;
+ border: 1px solid red; 
+ display: inline-block;
+ padding:10px;
+ width: 910px
 }
-#wrapper .graphic_box .fitness_icon{
+/*#wrapper .graphic_box {
    width: 350px ;
     height: 300px ;
-    display: inline-block ;
-}
-#wrapper .pole_icon .fitness_icon{
+    display: inline-block ;*/
+  }
+  .pole_button{
+    display: block;
+    padding: 10px;
+  }
+  .pole_button:hover{
+    opacity: 0.3;
+  }
+
+/*#wrapper .pole_icon .fitness_icon{
   
   display: inline-block;
   width: 325;
@@ -85,17 +90,32 @@ article.pricelist{
   margin-bottom: 100px;
 }
 
+#wrapper{
+  position: absolute;
+  width: 100%;
+  top:210px;
+  margin: auto 100px;
+
+  background-color: rgb(235,235,235)}
 header{
+ 
 	background-color: black; 
 	color:white;
-	max-height: 200px;
-  min-height: 200px; 
+  height: 200px;
+
 }
 
 footer {
-	background-color: black;
-	color: white;
-  clear:both;
+	color:white;
+  position:relative;
+  width:100%;
+  height:80px;
+  bottom:0;
+  left:0;
+  background:black;
+  margin-top: 800px;
+
+}
 }
 h1{font-family: sacramento, cursive;
 	font-size: 300%;
@@ -103,22 +123,6 @@ h1{font-family: sacramento, cursive;
 h2{font-family: sacramento, cursive;
 	font-size: 175%}
 h3{font-size: 85%}
-
-
-h1 {
-	font-family: sacramento, cursive;
-	font-size: 225%;
-}
-
-h2 {
-	font-family: sacramento, cursive;
-	font-size: 120% ;
-}
-
-h3 {
-	font-size: 85% ;
-}
-
 nav li {
 	display:inline;
 	max-height: 300px;
@@ -203,15 +207,7 @@ section.summary{
 .bioblurb{
   width: 400px;
 }
-footer{
-  width:100%;
-  height:80px;
-  clear: both;
-  bottom:0;
-  left:0;
-  background:black;
 
-}
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 #cssmenu,
 #cssmenu ul,
@@ -603,7 +599,7 @@ nav.hover {
 .description {
 }
 
-/*saul added the two rules below*/
+/*saul added the two rules below
 #pole_img {
 	display: inline-block;
 	width: 325;
@@ -611,7 +607,7 @@ nav.hover {
 	background-image: url(../assets/pole_button.png) ;
 }
 
-/*saul added the two rules below*/
+/*saul added the two rules below
 #pole_img {
 	display: inline-block;
 	width: 325;
