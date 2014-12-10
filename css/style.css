@@ -15,7 +15,7 @@ backfground image.
 */
 
 body {
-	font-family: gill sans;
+	font-family: gill sans, Helvetica, sans-serif;
 	font-weight: lighter;
 	background-color: rgb(235,235,235);
 	color:#000000;
