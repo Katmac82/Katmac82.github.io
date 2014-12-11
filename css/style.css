@@ -41,16 +41,16 @@ header{
 
 }
 
-footer {
-  color:white;
+footer{
   position: relative;
-  
   width:100%;
   height:80px;
+  color:white;
   bottom:0;
   left:0;
+
   background:black;
-  top:1200;
+
 
 }
 }
@@ -92,7 +92,7 @@ h2.directions{
   padding:10px;
 }
 .connectinfo{
-  paddin
+  
   width: 300px;
   margin-left: 620px;
   margin-top: -300px;
@@ -209,7 +209,7 @@ section.summary{
 }
 
 }
-.philosophy{
+article.philosophy{
   width:460px;
 }
 .policiebody{
@@ -342,6 +342,46 @@ ul .pole_levels{
   margin-left: 500px;
   margin-top: -170px;
 }
+}
+.bio_content {
+  display: inline-block;
+  margin-top: -100px;
+}
+.marrisa{
+  padding-top: 25px;
+}
+.marrisa_pole2{
+  display: inline-block;
+  margin-left: -500px;
+  margin-top: -400px;
+}
+.christine{
+  padding-top: 80px;
+}
+.christinepic{
+  position:absolute;
+  display: inline-block;
+  margin-left: 500px;
+  margin-top: -400px;
+
+}
+.sierra{
+  position: absolute;
+  padding-top: 240px;
+}
+.gina{
+  position: absolute;
+  padding-top: 800px;
+}
+.gina_2{
+  display: inline-block;
+  margin-left: 500px;
+  margin-top: -280px;
+}
+.sierra_image{
+  display: inline-block;
+  margin-left: -500px;
+  margin-top: -400px;
 }
 }
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
