@@ -414,7 +414,16 @@ display: inline-block;
   margin-top: -100px;
 
 }
-.youtube_video { display: block;margin:auto; border:5px solid black; }
+.sierra_video{
+  padding-top: 50px;
+}
+.christine_video{
+  padding-top: 50px;
+}
+.gina_video{
+  padding-top: 50px;
+}
+.youtube_video { display: block;margin-left:150px; border:5px solid black; }
 }
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 #cssmenu,
