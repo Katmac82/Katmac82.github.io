@@ -82,8 +82,9 @@ a:hover{
   margin-top: 50px;
   margin-bottom: 50px;
  /*border: 1px solid red;*/ 
- display: inline-block;
+ display: block;
  padding:10px;
+ max-height: 350px;
  
 }
 
@@ -144,7 +145,7 @@ article.pricelist{
 article.tobin .christine .sierra{width:400px;}
 }
 .philosophy{
-  max-width: 460px;
+  width: 700px;
 }
 .btn {
   background: #9e005d;
@@ -211,6 +212,10 @@ section.summary{
   margin-top: 100px;
   padding-left: 20px;
   
+}
+.studio_img{
+  display: inline-block;
+  margin-top: 50px;
 }
 
 }
