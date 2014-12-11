@@ -23,10 +23,12 @@ body {
 }
 #wrapper{
   position: absolute;
-  width: 100%;
+  width: 90%;
   top:210px;
+  bottom:200px;
   margin-left: 10%;
   margin-right:10%;
+  margin-bottom: 25px;
 
   background-color: rgb(235,235,235)}
 header{
@@ -36,23 +38,24 @@ header{
   color:white;
   height: 200px;
   top: 0px;
-  position: fixed;
+  position: absolute;
   z-index: 50;
 
 }
 
-footer{
-  position: relative;
-  width:100%;
-  height:80px;
-  color:white;
-  bottom:0;
-  left:0;
 
-  background:black;
+ footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background: black;
+    color:white;
 
 
 }
+
 }
 
 h2{font-family: 'sacramento', cursive;
@@ -83,9 +86,7 @@ a:hover{
  padding:10px;
  
 }
-iframe{
-  display: block;
-  padding-top: 30px;
+
 
 }
 h2.directions{
@@ -142,8 +143,8 @@ article.pricelist{
 }
 article.tobin .christine .sierra{width:400px;}
 }
-article.philosophy{
-  width: 460px;
+.philosophy{
+  max-width: 460px;
 }
 .btn {
   background: #9e005d;
@@ -185,16 +186,20 @@ article.philosophy{
 }
 .btn{
   position: absolute;
-  left:750px;
+  left:775px;
   top:100px;
   z-index: 50;
 }
 .socialmedia{
+  padding-top: 5px;
   position: absolute;
-  left:900px;
-  margin-top: 15px; 
+  left:920px;
+  margin-top: 5px; 
 }
 .contactinfo{
+  font-size: 75%;
+  padding-top: 3px;
+  margin-bottom: 10px;
   position:absolute;
   left:75px;
 }
@@ -383,6 +388,31 @@ ul .pole_levels{
   margin-left: -500px;
   margin-top: -400px;
 }
+.pole_pic{
+  padding-top:  25px;
+}
+.competition_winners2{
+  position: absolute;
+  display: inline-block;
+  padding-left: 20px;
+  margin-top: 0px;
+}
+.marrisa_pole1{
+display: inline-block;
+  padding-left: 20px;
+}
+.marrisa_pole4{
+  display: inline-block;
+  padding-left: 20px;}
+.gab_pole1{
+  display: inline-block;
+  padding-left: 20px;
+}
+.tobin_pole2{
+  display: inline-block;
+  position: relative;
+  margin-top: -100px;
+
 }
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 #cssmenu,
@@ -738,6 +768,7 @@ ul .pole_levels{
   font-size: 300%;
   width: 600px;
   font-weight: lighter;
+  margin-top: 10px;
   }
 
 /*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
