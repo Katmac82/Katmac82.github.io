@@ -87,6 +87,22 @@ a:hover{
  max-height: 350px;
  
 }
+.tobin_pole_photo:hover{
+  opacity: 0.3;
+}
+.video{
+  position: absolute;
+  margin-left: 600px;
+  margin-top: -640px;
+}
+.video_img{
+  position: absolute; 
+  
+  margin-top: 0px;
+}
+.video_img:hover{
+  opacity: 0.3;
+}
 
 
 }
@@ -197,6 +213,19 @@ section.philosophy{
   position: absolute;
   left:920px;
   margin-top: 5px; 
+}
+.facebook:hover{
+  opacity: 0.3;
+
+}
+.twitter:hover{
+  opacity: 0.3;
+}
+.email:hover{
+  opacity: 0.3;
+}
+.youtube:hover{
+  opacity: 0.3;
 }
 .contactinfo{
   font-size: 75%;
