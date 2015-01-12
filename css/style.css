@@ -17,7 +17,7 @@ backfground image.
 body {
 	font-family: 'Abel', sans-serif;
 	font-weight: lighter;
-	background-color: rgb(235,235,235);
+	background-color: white;
 	color:#000000;
   min-height: 100%;
 }
