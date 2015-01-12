@@ -161,8 +161,10 @@ article.pricelist{
 }
 article.tobin .christine .sierra{width:400px;}
 }
-section.philosophy{
+.philosophy{
   width: 700px;
+  margin-right: 50px;
+  overflow: none;
 }
 .btn {
   background: #9e005d;
@@ -377,6 +379,10 @@ ul .pole_levels{
 }
 .partyprice{
   padding-top: 60px;
+}
+.philosophy{
+  width: 920px;
+  position: absolute;
 }
 .studio_image2{
   margin-left: 500px;
