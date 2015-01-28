@@ -20,6 +20,7 @@ body {
 	background-color: white;
 	color:#000000;
   min-height: 100%;
+
 }
 #wrapper{
   position: absolute;
@@ -64,6 +65,14 @@ h3{font-size: 85%}
 
 li {
   list-style: none;
+}
+p{
+  line-height: 125%;
+}
+.summary::first-letter{
+  font-family: 'sacramento', cursive; 
+  font-size: 175%;
+  color: #9E1F60;
 }
 
 a {
@@ -466,6 +475,7 @@ display: inline-block;
 }
 .youtube_video { display: block;margin-left:150px; border:5px solid black; }
 }
+
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 #cssmenu,
 #cssmenu ul,
