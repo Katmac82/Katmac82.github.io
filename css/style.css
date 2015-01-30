@@ -133,21 +133,21 @@ h2.directions{
   }
   .pole_button{
     
-    padding: 10px;
+    padding: 3px;
   }
   .pole_button:hover{
     opacity: 0.3;
   }
   .aerial_button{
    
-    padding:10px;
+    padding:3px;
   }
   .aerial_button:hover{
     opacity: 0.3;
   }
   .alt_fit{
    
-    padding: 10px;
+    padding: 3px;
   }
   .alt_fit:hover{
     opacity: 0.3
@@ -255,9 +255,11 @@ section.summary{
   
 }
 .studio_img{
-  display: inline-block;
+  display: block;
   position: absolute;
   margin-top:175px;
+  margin-bottom: 300px;
+
 }
 
 }
