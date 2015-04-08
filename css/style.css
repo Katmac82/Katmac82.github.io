@@ -132,7 +132,7 @@ h2.directions{
     display: inline-block ;*/
   }
   .pole_button{
-    
+    display: block;
     padding: 3px;
   }
   .pole_button:hover{
@@ -259,6 +259,7 @@ section.summary{
   position: absolute;
   margin-top:175px;
   margin-bottom: 300px;
+  padding-bottom: 150px;
 
 }
 
@@ -272,16 +273,7 @@ article.philosophy{
 .faq{
   width: 720px;
 }
-.tobin{
-  width: 460px;
-  padding-top: 75px;
-}
-.tobin_pic{
-  margin-left: 500px;
-  margin-top: -220px;
-  display: inline-block;
-  padding-bottom: 25px;
-}
+
 .tobinsilks{
   margin-top: -150px;
 }
@@ -292,20 +284,7 @@ article.philosophy{
   margin-top: -300px;
 
 }
-.marrisa{
-  width: 460px;
-  margin-left: 500px;
-}
-.christine{
-  width: 460px;
-}
-.sierra{
-  width: 460px;
-  margin-left: 500px;
-}
-.gina{
-  width: 460px;
-}
+
 .price_summary{
   width: 920px;
   text-align: center;
@@ -389,7 +368,11 @@ ul .pole_levels{
 .party_sum{
   width: 940px;
 }
+#party_list{
+  line-height: 25px;
+}
 .partyprice{
+  width: 460px;
   padding-top: 60px;
 }
 .philosophy{
@@ -405,42 +388,7 @@ ul .pole_levels{
   display: inline-block;
   margin-top: -100px;
 }
-.marrisa{
-  padding-top: 25px;
-}
-.marrisa_pole2{
-  display: inline-block;
-  margin-left: -500px;
-  margin-top: -400px;
-}
-.christine{
-  padding-top: 80px;
-}
-.christinepic{
-  position:absolute;
-  display: inline-block;
-  margin-left: 500px;
-  margin-top: -400px;
-
-}
-.sierra{
-  position: absolute;
-  padding-top: 240px;
-}
-.gina{
-  position: absolute;
-  padding-top: 800px;
-}
-.gina_2{
-  display: inline-block;
-  margin-left: 500px;
-  margin-top: -375px;
-}
-.sierra_image{
-  display: inline-block;
-  margin-left: -500px;
-  margin-top: -400px;
-}
+.
 .pole_pic{
   padding-top:  25px;
 }
