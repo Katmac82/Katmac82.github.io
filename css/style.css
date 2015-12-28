@@ -295,13 +295,29 @@ article.philosophy{
   width: 720px;
   padding-left: 25px;
 }
+.private_price{
+  border-top: solid .5pt black; 
+  width: 960px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.membership_price{
+  border-bottom: solid .5pt black; 
+  padding-bottom: 25px;
+  border-top: solid .5pt black; 
+  width: 960px;
+  padding-top: 25px;
+}
 .package_policy {  
   width: 920px;
   text-align: center;
   padding-top:25px;
   padding-bottom: 25px;
   }
+.package_info{
+  text-align: center;
 }
+
 .bioblurb{
   width: 400px;
 }
@@ -357,7 +373,18 @@ ul .pole_levels{
   position: absolute;
   margin-top: -275px;
 }
+.floorwork{
+  margin-top: 100px;
+  width: 460px; 
+  padding-bottom: 100px;
+
+}
+.yoga{
+  margin-top: -100px;
+  width: 460px;
+}
 .bellyimage{
+
   margin-top: 100px;
 }
 .belly{
