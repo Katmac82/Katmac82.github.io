@@ -405,13 +405,17 @@ padding-bottom: 50px;}
   margin-top: -400px;
 
 }
-.marrisa{
+.norma{
   width: 460px;
   padding-bottom: 50px;
 }
-.marrisa_pole2{
+.norma_bio{
   margin-left: 500px;
-  margin-top: -400px;
+  margin-top: -350px;
+  padding-bottom: 25px;
+}
+.gab{
+  padding-bottom: 100px;
 }
 .christine{
   width: 460px;
