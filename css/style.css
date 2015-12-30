@@ -43,8 +43,6 @@ header{
   z-index: 50;
 
 }
-
-
  footer {
     position: fixed;
     left: 0;
@@ -53,12 +51,7 @@ header{
     width: 100%;
     background: black;
     color:white;
-
-
 }
-
-}
-
 h2{font-family: 'sacramento', cursive;
   font-size: 175%}
 h3{font-size: 85%}
@@ -79,9 +72,11 @@ a {
   color:#9E1F60;
   text-decoration: none;
   padding: 5px;
+
 }
 a:hover{
-  font-weight: bold;}
+  font-weight: bold;
+}
 .register_me{
   width: 940px;
   text-align: center;
@@ -137,12 +132,21 @@ h2.directions{
   }
   .pole_button:hover{
     opacity: 0.3;
+    -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+
   }
   .aerial_button{
    
     padding:3px;
   }
   .aerial_button:hover{
+    -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
     opacity: 0.3;
   }
   .alt_fit{
@@ -150,6 +154,10 @@ h2.directions{
     padding: 3px;
   }
   .alt_fit:hover{
+    -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
     opacity: 0.3
   }
 
@@ -467,6 +475,13 @@ padding-bottom: 50px;}
   margin-left: 500px;
   margin-top: -200px;
   margin-bottom: 100px;
+}
+.lindsey{
+  width: 460px;
+}
+.linds_lyra{
+  margin-left: 500px;
+  margin-top: -450px;
 }
 .pole_pic{
   padding-top:  25px;
