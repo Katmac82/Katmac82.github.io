@@ -380,7 +380,7 @@ ul .pole_levels{
 }
 .gab_pole{
   margin-left: 500px;
-  margin-top: -400px;
+  margin-top: -700px;
 }
 .lyra_describe{
   width:460px;
@@ -388,7 +388,7 @@ ul .pole_levels{
 }
 .lyra{
   margin-left: 500px;
-  margin-top: -150px;
+  margin-top: -210px;
 }
 .silks{
   padding-top: 100px;
@@ -397,7 +397,7 @@ ul .pole_levels{
 }
 .bellydance{
  margin-top: 50px;
- 
+  padding-bottom: 200px;
   position: absolute;
   width: 460px;
 }
@@ -427,7 +427,7 @@ ul .pole_levels{
 }
 .belly{
   display: block;
-  margin-top: -100px;
+  /*margin-top: -100px; */
   margin-left: 500px;
 }
 .party_sum{
